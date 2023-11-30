@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 50vh;
+    background-color: lightgreen;
+}
+
+.welcome {
+    display: inline-block;
+    background-color: #666;
+    text-align: center;
+    height: 5vh;
+}
+
+.pageContent {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(127, 218, 127);
+
+}
+
+.forNav {
+    flex: 1;
+}
+
+.navBar {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.content {
+    flex: 2;
+}
